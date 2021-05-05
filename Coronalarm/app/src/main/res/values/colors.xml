@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#707070</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorSelected">#707070</color>
+
+    <color name="colorHomeSound1">#BDB2FF</color>
+    <color name="colorHomeSound2">#DCEDFF</color>
+    <color name="colorHomeSound3">#FDFFB6</color>
+    <color name="colorHomeSound4">#FFD6A5</color>
+    <color name="colorHomeSound5">#FFADAD</color>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/powerButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="106dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/power_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_power_button" />
+
+    <Button
+        android:id="@+id/buttonSound1"
+        android:layout_width="175dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="118dp"
+        android:background="@drawable/home_sound1_button"
+        android:text="@string/sound_1"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/powerButton" />
+
+    <Button
+        android:id="@+id/buttonSound2"
+        android:layout_width="175dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="118dp"
+        android:background="@drawable/home_sound2_button"
+        android:text="@string/sound_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSound1" />
+
+    <Button
+        android:id="@+id/buttonSound3"
+        android:layout_width="175dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="118dp"
+        android:background="@drawable/home_sound3_button"
+        android:text="@string/sound_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSound2" />
+
+    <Button
+        android:id="@+id/buttonSound4"
+        android:layout_width="175dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="118dp"
+        android:background="@drawable/home_sound4_button"
+        android:text="@string/sound_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSound3" />
+
+    <Button
+        android:id="@+id/buttonSound5"
+        android:layout_width="175dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="118dp"
+        android:background="@drawable/home_sound5_button"
+        android:text="@string/sound_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSound4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

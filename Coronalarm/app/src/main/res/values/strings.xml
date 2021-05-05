@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Coronalarm</string>
+    <string name="dashboard_home">Home</string>
+    <string name="dashboard_sounds">Sounds</string>
+    <string name="power_button">Turn alarm on and off.</string>
+    <string name="sound_1">Woop Woop</string>
+    <string name="sound_2">Anderhalf meter!</string>
+    <string name="sound_3">Aura, bitch!</string>
+    <string name="sound_4">Go away!</string>
+    <string name="sound_5">Whistle!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Sounds Tab -->
+    <string name="woop_woop">Woop Woop</string>
+    <string name="anderhalf">Anderhalf meter!</string>
+    <string name="aura">Aura, bitch!</string>
+    <string name="go_away">Go away!</string>
+    <string name="whistle">Whistle!</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorBackground"
+    android:descendantFocusability="blocksDescendants">
+    <TextView
+        android:id="@+id/text_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+    </TextView>
+    <ImageButton
+        android:id="@+id/icon_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBackground"
+        android:background="@drawable/icon_favourite"
+        android:src="@drawable/icon_favourite"
+        app:layout_constraintTop_toTopOf="@+id/text_list_item"
+        app:layout_constraintBottom_toBottomOf="@+id/text_list_item"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="20dp">
+    </ImageButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
